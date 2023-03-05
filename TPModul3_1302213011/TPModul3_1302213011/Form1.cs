@@ -16,5 +16,12 @@ namespace TPModul3_1302213011
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string userInput = textBox1.Text;
+            string userOutput = "Halo " + userInput;
+            label1.Text = userOutput;
+        }
     }
 }
